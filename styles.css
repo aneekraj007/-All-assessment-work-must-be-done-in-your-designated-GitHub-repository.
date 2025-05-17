@@ -1,0 +1,56 @@
+/* Topic 1 styling */
+h1 {
+  color: #007acc;              /* Task 2 – different color */
+}
+
+.intro {
+  font-size: 1.2rem;           /* Task 2 – different size */
+}
+
+/* Topic 2 layout & styling */
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+}
+
+header,
+footer {
+  background: #f2f2f2;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Simple horizontal nav */
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem;
+  background: #007acc;
+  display: flex;               /* inline-block would work too */
+  gap: 1rem;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  display: block;              /* default, just for clarity */
+  padding: 1rem;
+}
+
+article {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: #fafafa;
+}
+
+/* Demonstrating inline-block */
+aside {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  padding: 1rem;
+  background: #eef7ff;
+}
